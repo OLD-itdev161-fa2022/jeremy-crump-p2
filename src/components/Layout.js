@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import ScrollButton from '../components/ScrollButton';
 
 import {
   container,
@@ -25,23 +24,12 @@ const Layout = ({ pageTitle, children }) => {
             <Link to="/Projects" className={navLinkText}>
               Projects
             </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/Photography" className={navLinkText}>
-              Photography
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/Contact" className={navLinkText}>
-              Contact
-            </Link>
-          </li>
+          </li>                  
         </ul>
       </nav>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
-        <ScrollButton/>
       </main>
     </div>
   )

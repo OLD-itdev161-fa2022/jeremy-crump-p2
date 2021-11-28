@@ -1,0 +1,13 @@
+h2{  
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(229, 245, 8);
+    background-color:cornflowerblue;
+}
+.block{
+    height: 400px;
+    background-color:cornflowerblue;
+}
+.paragraph-text {
+    margin-top: 5rem;
+}
