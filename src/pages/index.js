@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
-import '../components/index.css'
+import '../components/home.css'
 
 const IndexPage = ()=> { 
   Aos.init({duration: 1000});
