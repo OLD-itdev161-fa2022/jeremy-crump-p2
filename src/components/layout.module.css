@@ -2,12 +2,13 @@
   background-color:#fff;
   color: rgb(63, 63, 63);
 }
+
 main {
   font-family: 'roboto mono', Arial, Helvetica, sans-serif;
 }
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 764px;
   font-family: 'poppins',sans-serif;
 }
 
@@ -22,6 +23,7 @@ main {
   justify-content: flex-start;
   list-style: none;
   padding-left: 0;
+  background-color: cornflowerblue;
 }
 .nav-link-item {
   padding-right: 2rem;
@@ -32,8 +34,8 @@ main {
   color: rgb(63, 63, 63);
   text-decoration: none;
 }
-
 .nav-link-text:hover {
-    color:cornflowerblue;
+  font-size: 1.5rem;
+    font-weight: bolder;
     transition: 0.2s;
 }
