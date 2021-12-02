@@ -4,15 +4,11 @@ h1{
     color: cornflowerblue;
 }
 
-h2{  
-    text-align: center;
-    font-size: 2rem;
-    color:rgb(229, 245, 8);
-    background-color:cornflowerblue;
-}
-.block{
-
-    height: relative;
+h2{
+    font-weight: 300;
+    padding:1em;
+    font-size: 1.5rem;
+    color:rgb(223, 238, 15);
     background-color:cornflowerblue;
 }
 .paragraph-text {

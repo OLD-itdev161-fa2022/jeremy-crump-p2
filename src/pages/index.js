@@ -16,10 +16,8 @@ const IndexPage = ()=> {
   return (
     <Layout pageTitle="Jeremy Crump | Developer">
       <PageLoad />
-      <h3>IT - Web/Software Developer Student</h3>
-      <div className="block">
-        <StatusLoad />
-      </div>
+      <h3>IT - Web/Software Developer Student</h3> 
+      <StatusLoad />   
       <div data-aos="zoom-in-up" className="paragraph-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
