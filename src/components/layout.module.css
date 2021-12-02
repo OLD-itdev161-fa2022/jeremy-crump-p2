@@ -11,13 +11,6 @@ main {
   max-width: 764px;
   font-family: 'poppins',sans-serif;
 }
-
-.heading {
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  color: cornflowerblue;
-}
-
 .nav-links {
   display: flex;
   justify-content: flex-start;
