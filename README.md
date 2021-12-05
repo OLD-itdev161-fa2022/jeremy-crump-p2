@@ -12,15 +12,13 @@
 
 1.  **Install dependencies**
     
-    Run npm install in your terminal
-    ```
+    Run: npm install
 
 2.  **Start developing.**
 
     Navigate into your directory and start it up.
 
-    npm run develop
-    ```
+    Run: gatsby develop
 
 3.  **Open the code and start customizing!**
 
