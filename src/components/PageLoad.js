@@ -6,9 +6,9 @@ export default function PageLoad() {
 
   
     const h1 = useSpring({
-      from: { opacity: 0, marginLeft: -100 },
+      from: { opacity: 0, marginLeft: -300 },
       to: { opacity: 1, marginLeft: 0 },
-      config: { duration: 2000 },
+      config: { duration: 500 },
     });
 
     return (

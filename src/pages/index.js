@@ -16,8 +16,14 @@ const IndexPage = ()=> {
   return (
     <Layout pageTitle="Jeremy Crump | Developer">
       <PageLoad />
-      <h3>IT - Web/Software Developer Student</h3> 
-      <StatusLoad />   
+      <h3>IT - Web/Software Developer Student</h3>
+      <StatusLoad />
+      <div className="divider">
+        <StaticImage
+          src="../images/Scarlet_Instagram_Rollei35.jpg"
+          alt="Scarlet the cat"
+        />
+      </div>
       <div data-aos="zoom-in-up" className="paragraph-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -31,10 +37,6 @@ const IndexPage = ()=> {
           elit.
         </p>
       </div>
-      <StaticImage
-        src="../images/Scarlet_Instagram_Rollei35.jpg"
-        alt="Scarlet the cat"
-      />
     </Layout>
   );    
 }

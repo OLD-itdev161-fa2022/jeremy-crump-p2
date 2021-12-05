@@ -7,7 +7,7 @@ export default function PageLoad() {
   const h2 = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    config: { duration: 3000 },
+    config: { duration: 1000 },
   });
 
   return (

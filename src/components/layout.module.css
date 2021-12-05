@@ -1,6 +1,6 @@
 * {
-  background-color:#fff;
-  color: rgb(63, 63, 63);
+  background-color:#fdfdfd;
+  color: #444444;
 }
 
 main {
@@ -8,27 +8,27 @@ main {
 }
 .container {
   margin: auto;
-  max-width: 764px;
+  max-width: 1024px;
   font-family: 'poppins',sans-serif;
 }
 .nav-links {
   display: flex;
-  justify-content: flex-start;
+  padding-right: 1em;
+  max-width: 50%;
   list-style: none;
-  padding-left: 0;
-  background-color: cornflowerblue;
+  border: 5px solid rgba(125, 125, 225, 0.2);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px 1px rgba(125, 125, 225, 0.2);
 }
 .nav-link-item {
-  padding-right: 2rem;
+  padding-right: 1em;
 }
 .nav-link-text {
-  font-size: 1rem;
-  font-weight: bold;
-  color: rgb(63, 63, 63);
+  font-size: 1.5rem;
+  font-weight:600;
   text-decoration: none;
 }
 .nav-link-text:hover {
-  font-size: 1.5rem;
-    font-weight: bolder;
+    font-size: 1.8rem;
     transition: 0.2s;
 }
