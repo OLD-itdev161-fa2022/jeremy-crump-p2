@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`, // Google Fonts
       options: {
         fonts: [
-          `roboto mono`,'poppins'    //Google Font Types
+         'roboto mono', 'poppins'    //Google Font Types
         ],
         display: 'swap'
       }

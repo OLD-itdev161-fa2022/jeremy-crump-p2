@@ -1,22 +1,38 @@
 h1{
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 3em;
     color: cornflowerblue;
 }
-
-h2{
+span{
+    color: antiquewhite;
+    background-color: cadetblue;
+}
+#status {
     font-weight: 300;
     padding:1em;
     font-size: 1.5rem;
+    background-color:rgb(95, 158, 160);
     color:rgb(223, 238, 15);
-    background-color:cornflowerblue;
     border-radius: 10px;
-    box-shadow: 12px 12px 2px 1px rgba(125, 125, 225, 0.2);
+    box-shadow: 12px 12px 2px 1px rgba(95, 150, 160, 0.2);
 }
-.paragraph-text {
-    margin-top: 5rem;
+.status1 {
+    margin: 0 0 20em 0;
 }
-
-.divider {
-    margin-top: 5rem;
+.status2 {
+    margin: 0 0 20em 0;
+}
+.status3{
+    margin: 0 0 20em 0;
+}
+.status4 {
+    margin: 0 0 20em 0;
+}
+.status5 {
+    background-color:lightseagreen;
+}
+.image-container {
+    margin: 25em 0 10em 0;
+}
+.image-text {
+    text-align: center;
 }

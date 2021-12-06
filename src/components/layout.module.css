@@ -2,14 +2,16 @@
   background-color:#fdfdfd;
   color: #444444;
 }
-
 main {
-  font-family: 'roboto mono', Arial, Helvetica, sans-serif;
+  font-family: 'roboto mono','Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h1{
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
 .container {
+  font-family: 'poppins','Segoe UI', Tahoma, Verdana, sans-serif;
   margin: auto;
   max-width: 1024px;
-  font-family: 'poppins',sans-serif;
 }
 .nav-links {
   display: flex;

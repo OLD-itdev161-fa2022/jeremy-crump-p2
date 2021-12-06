@@ -7,7 +7,7 @@ const IndexPage = ()=> {
    <Layout pageTitle="Contact"> 
       <h1>Contact</h1>
       <p>
-          This contact form was made using Node.js Express and Nodemailer
+          I made this contact form with Node.js Express and Nodemailer
         </p>    
       <ContactForm/>
     </Layout>
