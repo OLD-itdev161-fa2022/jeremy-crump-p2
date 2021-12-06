@@ -2,7 +2,7 @@ import * as React from 'react'
 import Layout from '../components/Layout'
 import '../components/home.css'
 import PageLoad from '../components/PageLoad'
-import StatusLoad from '../components/StatusLoad'
+import Content from '../components/Content'
 
 const IndexPage = ()=> { 
 
@@ -10,7 +10,7 @@ const IndexPage = ()=> {
     <Layout pageTitle="Jeremy Crump | Developer">
       <PageLoad />
       <h3>IT-Web/Software Developer Student</h3>
-      <StatusLoad />     
+      <Content />     
     </Layout>
   );    
 }

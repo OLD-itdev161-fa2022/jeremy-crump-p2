@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
 import { StaticImage } from "gatsby-plugin-image"
 
-export default function PageLoad() {
+export default function Content() {
 
   const h2 = useSpring({
     from: { opacity: 0 },
@@ -23,10 +23,13 @@ export default function PageLoad() {
           I decided on doing the deep dive option of Project 2. I wanted to try something new and expand on some of the technologies we learned this semester. 
           <br></br>
           <br></br>
-          For this website, I used <span>React</span> with <span>Gatsby.js</span>. It was cool digging deeper into components and hooks with react. I'm beginning to feel alot more comfortable navigating react on my own now.
+          For this website, I used <span>React</span> with <span>Gatsby.js</span>. It was cool learning more about components in react. I'm beginning to feel alot more comfortable navigating through React and how to use this framework.
           <br></br>
           <br></br>
-          There is a form submission on the contact page using <span>[Node.js Express]</span>. 
+          There is a form submission on the contact page using a <span>[Node.js Express]</span>
+          <br></br>
+          <br></br>
+          You can continue down the page to see some of the code I used. 
         </h2>
       </Zoom>
       <Zoom> 
