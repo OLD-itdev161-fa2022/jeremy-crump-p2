@@ -4,6 +4,7 @@ import '../components/home.css'
 import PageLoad from '../components/PageLoad'
 import Content from '../components/Content'
 import { Link } from 'gatsby'
+import { FaRegArrowAltCircleUp } from 'react-icons/fa';
 
 const IndexPage = ()=> { 
 
@@ -12,7 +13,9 @@ const IndexPage = ()=> {
       <PageLoad />
       <h3>IT-Web/Software Developer Student</h3>
       <Content /> 
-      <Link to="#top">Back to top</Link>    
+      <div id="scroll-top">
+      <Link to="#top">Back to top <FaRegArrowAltCircleUp /></Link>
+      </div>    
     </Layout>
   );    
 }

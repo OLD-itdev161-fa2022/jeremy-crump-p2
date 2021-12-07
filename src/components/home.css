@@ -32,9 +32,18 @@ span{
     justify-content:space-around;
     margin: 10em 0 10em 0;
 }
-#image-container img {   
-    width: 500px;
-}
 .image-text {
-    text-align: center;
+    width: 50%;
+    margin-left: 2em;
+}
+.image-item {
+    width: 50%;
+    padding: 2em;
+}
+#scroll-top {
+    margin: 0 5em 2em 0;
+    text-align: right;
+    font-family: 'poppins','Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }

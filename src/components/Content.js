@@ -2,7 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 import "./home.css";
 import Zoom from 'react-reveal/Zoom'
-import { GatsbyImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Content() {
 
@@ -33,88 +33,66 @@ export default function Content() {
       </Zoom>
       <Zoom> 
         <div id="image-container" className="status1">
-          <div>
-            <h2 className="image-text">Dependencies</h2>
-            <p>text text</p>
+          <div className="image-text">
+            <h2>Dependencies</h2>
+            <p>These are the required dependencies for Server.js :</p>
+            <ul>
+              <li>Express</li>
+              <li>Cors</li>
+              <li>Nodemailer</li>
+            </ul>
           </div> 
-          <div>
-            {/* <GatsbyImage
+          <div className="image-item">
+            <StaticImage
               src="../images/dependencies.png"
               alt="code screenshot of dependencies"
-            /> */}
+            />
           </div>
         </div>
       </Zoom>
-      <Zoom>
+      <Zoom> 
         <div id="image-container" className="status1">
-          <div>
-            <h2 className="image-text">Nodemailer</h2>
-            <p>text text</p>
+          <div className="image-text">
+            <h2>Nodemailer</h2>
+            <p>This is a node module used for e-mail sending. I used a fake email and password from ethereal for testing purposes. You are still able to send a message to this email and I will receive it at that address.</p>
+            
           </div> 
-          <div>
-            {/* <GatsbyImage
+          <div className="image-item">
+            <StaticImage
               src="../images/nodemailer.png"
-              alt="code screenshot of nodemailer"
-            /> */}
-          </div>
-        </div>
-      </Zoom> 
-      <Zoom> 
-        <div id="image-container" className="status1">
-          <div>
-            <h2 className="image-text">Router</h2>
-            <p>text text</p>
-          </div> 
-          <div>
-            {/* <GatsbyImage
-              src="../images/router.png"
-              alt="code screenshot of router"
-            /> */}
-          </div>
-        </div>
-      </Zoom>
-      <Zoom>  
-        <div id="image-container" className="status1">
-          <div>
-            <h2 className="image-text">Express</h2>
-            <p>text text</p>
-          </div> 
-          <div>
-            {/* <GatsbyImage
-              src="../images/express.png"
-              alt="code screenshot of express"
-            /> */}
-          </div>
-        </div>
-      </Zoom>
-      <Zoom> 
-        <div id="image-container" className="status1">
-          <div>
-            <h2 className="image-text">Form</h2>
-            <p>text text</p>
-          </div> 
-          <div>
-            {/* <GatsbyImage
-              src="../images/formJs.png"
-              alt="code screenshot of form.js"
-            /> */}
-          </div>
-        </div>
-      </Zoom>
-      <Zoom> 
-        <div id="image-container" className="status1">
-          <div>
-            <h2 className="image-text">Form Return Statement</h2>
-            <p>text text</p>
-          </div> 
-          <div>
-            {/* <GatsbyImage
-              src="../images/returnFormjs.png"
-              alt="code screenshot of return statement on form.js"
-            /> */}
+              alt="code screenshot of dependencies"
+            />
           </div>
         </div>
       </Zoom>      
+      <Zoom> 
+        <div id="image-container" className="status1">
+          <div className="image-text">
+            <h2>Middleware</h2>
+            <p>This is the express.js router middleware similar to what we learned about this semester. This time we are using it to create an email message that will be sent from the contact page.</p>         
+          </div> 
+          <div className="image-item">
+            <StaticImage
+              src="../images/router.png"
+              alt="code screenshot of middleware"
+            />
+          </div>
+        </div>
+      </Zoom>
+      <Zoom> 
+        <div id="image-container" className="status1">
+          <div className="image-text">
+            <h2>Form</h2>
+            <p>This is the backend code for the contact form.</p>         
+          </div> 
+          <div className="image-item">
+            <StaticImage
+              src="../images/formJs.png"
+              alt="code screenshot of form"
+            />
+          </div>
+        </div>
+      </Zoom>             
     </animated.div>
   );
 }
