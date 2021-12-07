@@ -2,8 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 import "./home.css";
 import Zoom from 'react-reveal/Zoom'
-import Fade from 'react-reveal/Fade'
-import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 export default function Content() {
 
@@ -16,7 +15,7 @@ export default function Content() {
   return (
     <animated.div style={h2}>
       <Zoom>
-        <h2 id="status" className="status1">
+        <h2 id="status">
           This is a website i'm creating for <span>[IT-DEV 161-500]</span> Project 2
           <br></br>
           <br></br>
@@ -29,38 +28,93 @@ export default function Content() {
           There is a form submission on the contact page using a <span>[Node.js Express]</span>
           <br></br>
           <br></br>
-          You can continue down the page to see some of the code I used. 
+          You can continue down the page to see some of the code I used for the contact form as well as come of the react animation components I added to this website. 
         </h2>
       </Zoom>
       <Zoom> 
-        <h2 id="status" className="status2">
-          These are some cards where content will go
-        </h2>
+        <div id="image-container" className="status1">
+          <div>
+            <h2 className="image-text">Dependencies</h2>
+            <p>text text</p>
+          </div> 
+          <div>
+            {/* <GatsbyImage
+              src="../images/dependencies.png"
+              alt="code screenshot of dependencies"
+            /> */}
+          </div>
+        </div>
       </Zoom>
       <Zoom>
-        <h2 id="status" className="status3">
-          if you keep scrolling more will appear
-        </h2>
+        <div id="image-container" className="status1">
+          <div>
+            <h2 className="image-text">Nodemailer</h2>
+            <p>text text</p>
+          </div> 
+          <div>
+            {/* <GatsbyImage
+              src="../images/nodemailer.png"
+              alt="code screenshot of nodemailer"
+            /> */}
+          </div>
+        </div>
       </Zoom> 
       <Zoom> 
-        <h2 id="status" className="status4">
-          here is another card, this one is a different color as well
-        </h2>
+        <div id="image-container" className="status1">
+          <div>
+            <h2 className="image-text">Router</h2>
+            <p>text text</p>
+          </div> 
+          <div>
+            {/* <GatsbyImage
+              src="../images/router.png"
+              alt="code screenshot of router"
+            /> */}
+          </div>
+        </div>
       </Zoom>
       <Zoom>  
-        <h2 id="status" className="status5">
-          This one is light sea green!
-        </h2>
-      </Zoom>
-      <Fade>
-        <div className="image-container">
-          <h2 className="image-text">Here is a photo of my cat, Scarlet</h2> 
-          <StaticImage
-            src="../images/Scarlet_Instagram_Rollei35.jpg"
-            alt="Scarlet the cat"
-          />
+        <div id="image-container" className="status1">
+          <div>
+            <h2 className="image-text">Express</h2>
+            <p>text text</p>
+          </div> 
+          <div>
+            {/* <GatsbyImage
+              src="../images/express.png"
+              alt="code screenshot of express"
+            /> */}
+          </div>
         </div>
-      </Fade>   
+      </Zoom>
+      <Zoom> 
+        <div id="image-container" className="status1">
+          <div>
+            <h2 className="image-text">Form</h2>
+            <p>text text</p>
+          </div> 
+          <div>
+            {/* <GatsbyImage
+              src="../images/formJs.png"
+              alt="code screenshot of form.js"
+            /> */}
+          </div>
+        </div>
+      </Zoom>
+      <Zoom> 
+        <div id="image-container" className="status1">
+          <div>
+            <h2 className="image-text">Form Return Statement</h2>
+            <p>text text</p>
+          </div> 
+          <div>
+            {/* <GatsbyImage
+              src="../images/returnFormjs.png"
+              alt="code screenshot of return statement on form.js"
+            /> */}
+          </div>
+        </div>
+      </Zoom>      
     </animated.div>
   );
 }

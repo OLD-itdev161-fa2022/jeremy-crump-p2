@@ -20,7 +20,7 @@ h1{
   list-style: none;
   border: 5px solid rgba(125, 125, 225, 0.2);
   border-radius: 10px;
-  box-shadow: 5px 5px 2px 1px rgba(125, 125, 225, 0.2);
+  box-shadow: 5px 5px 2px 1px rgba(95, 150, 160, 0.2);
 }
 .nav-link-item {
   padding-right: 1em;

@@ -10,7 +10,7 @@ import {
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className={container}>
+    <div id="top" className={container}>
       <title>{pageTitle}</title>
       <nav>
         <ul className={navLinks}>
