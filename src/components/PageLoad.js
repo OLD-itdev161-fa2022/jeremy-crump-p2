@@ -14,7 +14,7 @@ export default function PageLoad() {
     return (
    
       <animated.div style={h1}>
-        <h1>Hey, I'm Jeremy</h1>
+        <h1>Jeremy Crump</h1>
       </animated.div>
     );
 }
